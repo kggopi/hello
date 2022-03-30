@@ -4,7 +4,7 @@ pipeline
   stages{
     stage('Build application')  
      {
-     step{
+     steps{
      bat 'mvn clean install'
      
      }
@@ -14,7 +14,7 @@ pipeline
   
   stage('Deploy application')  
      {
-     step{
+     steps{
      bat 'mvn package deploy -DmuleDeploy'
      
      }

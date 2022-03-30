@@ -38,7 +38,7 @@
                      <environment>Sandbox</environment>
                      <muleVersion>4.4.0</muleVersion>
                       <objectStoreV2>true</objectStoreV2>
-                      <applicationName>test-hello-123465</applicationName>
+                      <applicationName>test-hello-1234656</applicationName>
                       </cloudHubDeployment>
                       </configuration>
 			</plugin>

@@ -32,7 +32,6 @@
 				<configuration>
 				<cloudHubDeployment>
 				<uri>https://anypoint.mulesoft.com</uri>
-				<region>us-east-2</region>
 				<username>12345gopi</username>
 				<password>12345Gopi</password>
 				<environment>Sandbox</environment>

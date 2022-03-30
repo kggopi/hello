@@ -30,18 +30,26 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<cloudHubDeployment>
-				<uri>https://anypoint.mulesoft.com</uri>
-				<username>12345gopi</username>
-				<password>12345Gopi</password>
-				<environment>Sandbox</environment>
-				<workers>1</workers>
-				<workerType>Micro</workerType>
-				<applicationName>gopihelloworldexample1235</applicationName>
-				<muleVersion>4.3</muleVersion>
-				<objectStoreV2>true</objectStoreV2>
-				</cloudHubDeployment>
-				</configuration>
+
+<cloudHubDeployment>
+
+<username>12345gopi</username>
+
+<password>12345Gopi</password>
+
+<workers>1</workers>
+
+<workerType>Micro</workerType>
+
+<environment>Sandbox</environment>
+
+<muleVersion>4.2.2</muleVersion>
+
+<applicationName>test-hello-123465</applicationName>
+
+</cloudHubDeployment>
+
+</configuration>
 			</plugin>
 		</plugins>
 	</build>
